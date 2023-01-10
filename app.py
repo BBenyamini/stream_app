@@ -10,7 +10,7 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-DATA_URL = ("/home/drdc/Documents/repos/sentiment_vis_app/Tweets.csv")
+DATA_URL = ("/home/drdc/Documents/repos/stream_app/Tweets.csv")
 
 st.title("Sentiment Analysis of Tweets about US Airlines")
 st.sidebar.title("Sentiment Analysis of Tweets")
